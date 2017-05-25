@@ -22,9 +22,9 @@
 <!-- /TOC -->
 ## 2. Legend
 
-The following emojis represent resource categories. Hopefully they're helpful for scanning.
+The following emojis represent **resource categories**.
 
-| Emoji | Definition |
+| Symbol | Definition |
 |:-----:|:-----------|
 | :name_badge: | Badges |
 | :construction: | Build tools and services |
@@ -35,6 +35,7 @@ The following emojis represent resource categories. Hopefully they're helpful fo
 | :octocat: | GitHub relata |
 | 🏷️    | Issue labels |
 | :copyright: | Licensing tools and info |
+| :shower: | Linters |
 | :chart_with_upwards_trend: | Report generators and tools |
 | :zap: | Source code; executables |
 | :100: | Test automation (unit, functional, perf.) |
@@ -57,7 +58,7 @@ The following emojis represent resource categories. Hopefully they're helpful fo
 ### 3.3. Contribution guidelines
 
 * :page_facing_up: [`/.github/CODE_OF_CONDUCT.md`][coc-url] - Contributor covenant code of conduct.
-* :page_facing_up: [`/.github/CONTRIBUTING.md`][contributing-url] - Succinct yet detailed guidelines centered on Issues and Pull Requests.
+* :page_facing_up: [`/.github/CONTRIBUTING.md`][contributing-url] - Succinct yet detailed guidelines that focus on Issues, Pull Requests, and commit messages.
 
 ### 3.4. Issue labels
 
@@ -72,11 +73,11 @@ The following emojis represent resource categories. Hopefully they're helpful fo
 
 ## 4. Documentation
 
-> :page_facing_up: A well-documented software product often enjoys greater adoption that a similar product with higher quality and more features.
+> :page_facing_up: Well-documented software products often enjoy greater adoption than similar products with higher quality and more features but poor or little documentation.
 
 ### 4.1. `README` tools
 
-> `README.md` is your repository's "home" page.
+> `README.md` is your repository's "home" page, and needs to capture the interest of potential consumers and contributors.
 
 * :name_badge: :construction: :page_facing_up: :octocat: :copyright: :zap: [`generator-github-create`][generator-github-create-url] - Yeoman generator for GitHub authentication; repository creation; `README` badges; local git initialization; and local commits and pushes.
 * :page_facing_up: [`emoji cheat sheet`][emoji-cheat-sheet-url] - Emojis add meaning and flavor to your communications (when used judiciously).
@@ -87,10 +88,10 @@ The following emojis represent resource categories. Hopefully they're helpful fo
 ### 4.2. API docs
 
 * :page_facing_up: :zap: [`JSDoc`][jsdoc-url] - The de-facto API documentation generator for Javascript.
-* :page_facing_up: :zap: [`jsdoc-to-markdown`][jsdoc-to-markdown-url] - Creates markdown API documentation from `JSDoc`-annotated Javascript.<br>
+* :page_facing_up: :zap: [`jsdoc-to-markdown`][jsdoc-to-markdown-url] - Creates markdown API documentation from `JSDoc`-annotated Javascript.
 > **:repeat: Tip**: generate `JSDoc` markdown with every push and commit the docs to your GitHub repository's Wiki for API doc automation!
 
-* :name_badge: :page_facing_up: :chart_with_upwards_trend: :zap: [`ESDoc`][esdoc-url] - Automated API documentation tool with available hosting services, linting, and coverage reports.
+* :name_badge: :page_facing_up: :chart_with_upwards_trend: :zap: [`ESDoc`][esdoc-url] - An automated API documentation tool with available hosting services, linting, and coverage reports.
 
 ## 5. Licenses
 
