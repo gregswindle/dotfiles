@@ -1,4 +1,4 @@
-# `.files` (dotfiles)
+#  Node.js `.files` (dotfiles)
 > :computer: Run-commands, configurations, checklists, templates, labels, and other stuff I'm constantly copying from one repo to another (till I consolidate into a custom generator or something :triumph:).
 
 [![License][license-badge]][license-url]
@@ -13,7 +13,7 @@
 	- [3.1. Issue templates](#31-issue-templates)
 	- [3.2. Contribution guidelines](#32-contribution-guidelines)
 	- [3.3. Issue labels](#33-issue-labels)
-	- [3.4. Commit messages and CHANGELOGs](#34-commit-messages-and-changelogs)
+	- [3.4. Commit messages and `CHANGELOG`](#34-commit-messages-and-changelog)
 	- [3.5. `README` tools](#35-readme-tools)
 - [4. Licenses](#4-licenses)
 
@@ -24,6 +24,7 @@
 |:-----:|:-----------|
 | :name_badge: | Badges |
 | :construction: | Build tools and services |
+| :twisted_rightwards_arrows: | CD (continuous deployment) services |
 | :repeat: | CI (continuous integration) services |
 | :rocket: | Deployment relata |
 | :page_facing_up: | Docs; templates; configs; files |
@@ -57,20 +58,20 @@
 
 * 🏷️  [`.git-labels`][git-labels-url] - A common set of Issue labels for unambiguous, consistent issue categorization.
 
-### 3.4. Commit messages and CHANGELOGs
+### 3.4. Commit messages and `CHANGELOG`
 
 * :zap: [`commitplease`][commitplease-url] - Pre-commit hook that enforces the [AngularJS commit guidelines][angularjs-commit-guidelines-url].
-* :page_facing_up: [`emoji cheat sheet`][emoji-cheat-sheet-url] - Emojis add meaning and flavor to your communications (when used judiciously).
-* :zap: [`semantic-release`][semantic-release-url] - Fully automated package publishing.
-* :zap: [`standard-version`][standard-version-url] - Automatic versioning and CHANGELOG generation, using GitHub's squash button and [conventional commit messages][conventional-commits-url].
+* :twisted_rightwards_arrows: :octocat: :rocket: :zap: [`semantic-release`][semantic-release-url] - Fully automated package publishing.
+* :repeat: :octocat: :zap: [`standard-version`][standard-version-url] - Automatic versioning and CHANGELOG generation, using GitHub's squash button and [conventional commit messages][conventional-commits-url].
 
 ### 3.5. `README` tools
 
 > :page_facing_up: High-quality README files communicate the value of your software products.
 
-:name_badge: :construction: :page_facing_up: :octocat: :copyright: :zap: [`generator-github-create`][generator-github-create-url] - Yeoman generator for GitHub authentication; repository creation; README Badges; local git initialization; and local commits and pushes.
-
-
+* :name_badge: :construction: :page_facing_up: :octocat: :copyright: :zap: [`generator-github-create`][generator-github-create-url] - Yeoman generator for GitHub authentication; repository creation; README Badges; local git initialization; and local commits and pushes.
+* :page_facing_up: [`emoji cheat sheet`][emoji-cheat-sheet-url] - Emojis add meaning and flavor to your communications (when used judiciously).
+* :page_facing_up: [GitHub Flavored Markdown cheatsheet][gh-flavored-md-cheatsheet-url] - Gist with simple examples for easy reference.
+* :page_facing_up: [Mastering Markdown • GitHub Guide][mastering-md-gh-guide-url] - Learn GitHub's markdown syntax in three minutes.
 
 ## 4. Licenses
 
@@ -89,7 +90,6 @@
 
 2017, [Greg Swindle][author-url].
 
-[generator-github-create-url]: https://github.com/trainerbill/generator-github-create
 [angularjs-commit-guidelines-url]: https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit
 [author-url]: https://github.com/gregswindle
 [choose-ccl-url]: https://creativecommons.org/share-your-work/
@@ -99,12 +99,16 @@
 [contributing-url]: .github/CONTRIBUTING.md
 [conventional-commits-url]: https://conventionalcommits.org/
 [emoji-cheat-sheet-url]: https://www.webpagefx.com/tools/emoji-cheat-sheet/
+[generator-github-create-url]: https://github.com/trainerbill/generator-github-create
 [generator-license-cc-url]: https://github.com/ek9/generator-license-cc
 [generator-license-url]: https://github.com/jozefizso/generator-license
+[gh-flavored-md-cheatsheet-url]: https://gist.github.com/stevenyap/7038119
 [git-labels-url]: .git-labels/README.md
 [issue-template-url]: .github/ISSUE_TEMPLATE.md
 [license-badge]: https://i.creativecommons.org/l/by-sa/4.0/80x15.png
 [license-url]: ./LICENSE
+[mastering-md-gh-guide-url]: https://guides.github.com/features/mastering-markdown/
+[nodejs-new-pantone-white-img]: assets/img/nodejs-new-pantone-white.png
 [osi-faq-url]: https://opensource.org/faq
 [pr-template-url]: .github/PULL_REQUEST_TEMPLATE.md
 [semantic-release-url]: https://github.com/semantic-release/semantic-release
