@@ -13,7 +13,7 @@
 	- [3.2. Issue templates](#32-issue-templates)
 	- [3.3. Contribution guidelines](#33-contribution-guidelines)
 	- [3.4. Issue labels](#34-issue-labels)
-- [3.5. Commit messages and `CHANGELOG`](#35-commit-messages-and-changelog)
+	- [3.5. Commit messages and `CHANGELOG` generators](#35-commit-messages-and-changelog-generators)
 - [4. Documentation](#4-documentation)
 	- [4.1. `README` tools](#41-readme-tools)
 	- [4.2. API docs](#42-api-docs)
@@ -45,13 +45,13 @@ The following emojis represent resource categories. Hopefully they're helpful fo
 
 ### 3.1. Repository generators
 
-:name_badge: :construction: :page_facing_up: :octocat: :copyright: :zap: [`generator-github-create`][generator-github-create-url] - Yeoman generator for GitHub authentication; repository creation; README Badges; local git initialization; and local commits and pushes.
+:name_badge: :construction: :page_facing_up: :octocat: :copyright: :zap: [`generator-github-create`][generator-github-create-url] - Yeoman generator for GitHub authentication; repository creation; `README` badges; local git initialization; and local commits and pushes.
 
 ### 3.2. Issue templates
 
 > :octocat: Add these files to a `.github` directory at the root of your repository and GitHub will automatically use them as issue and pull request templates.
 
-* :page_facing_up: [`/.github/ISSUE_TEMPLATE.md`][issue-template-url] - A standard template notes to guide reporters.
+* :page_facing_up: [`/.github/ISSUE_TEMPLATE.md`][issue-template-url] - A standardized issue template with notes to guide reporters.
 * :page_facing_up: [`/.github/PULL_REQUEST_TEMPLATE.md`][pr-template-url] - A simple PR template focused on quality assurance, security, and dependency drift.
 
 ### 3.3. Contribution guidelines
@@ -63,7 +63,8 @@ The following emojis represent resource categories. Hopefully they're helpful fo
 
 * 🏷️  [`.git-labels`][git-labels-url] - A common set of Issue labels for unambiguous, consistent issue categorization.
 
-## 3.5. Commit messages and `CHANGELOG`
+### 3.5. Commit messages and `CHANGELOG` generators
+> :twisted_rightwards_arrows: Consistent commit message formats not only make the history of product changes easier for humans to read, but also make it possible for software to create and update `CHANGELOGs`, as well as "bump" versions and release them.
 
 * :zap: [`commitplease`][commitplease-url] - Pre-commit hook that enforces the [AngularJS commit guidelines][angularjs-commit-guidelines-url].
 * :twisted_rightwards_arrows: :octocat: :rocket: :zap: [`semantic-release`][semantic-release-url] - Fully automated package publishing.
@@ -77,7 +78,7 @@ The following emojis represent resource categories. Hopefully they're helpful fo
 
 > `README.md` is your repository's "home" page.
 
-* :name_badge: :construction: :page_facing_up: :octocat: :copyright: :zap: [`generator-github-create`][generator-github-create-url] - Yeoman generator for GitHub authentication; repository creation; README Badges; local git initialization; and local commits and pushes.
+* :name_badge: :construction: :page_facing_up: :octocat: :copyright: :zap: [`generator-github-create`][generator-github-create-url] - Yeoman generator for GitHub authentication; repository creation; `README` badges; local git initialization; and local commits and pushes.
 * :page_facing_up: [`emoji cheat sheet`][emoji-cheat-sheet-url] - Emojis add meaning and flavor to your communications (when used judiciously).
 * :page_facing_up: [GitHub Flavored Markdown cheatsheet][gh-flavored-md-cheatsheet-url] - Gist with simple examples for easy reference.
 * :page_facing_up: [Mastering Markdown • GitHub Guide][mastering-md-gh-guide-url] - Learn GitHub's markdown syntax in three minutes.
@@ -89,7 +90,7 @@ The following emojis represent resource categories. Hopefully they're helpful fo
 * :page_facing_up: :zap: [`jsdoc-to-markdown`][jsdoc-to-markdown-url] - Creates markdown API documentation from `JSDoc`-annotated Javascript.<br>
 > **:repeat: Tip**: generate `JSDoc` markdown with every push and commit the docs to your GitHub repository's Wiki for API doc automation!
 
-* :name_badge: :page_facing_up: :chart_with_upwards_trend: :zap: [`ESDoc`][esdoc-url] - Automated API documentation tool with available hosting services, linting, and coverage reports. 
+* :name_badge: :page_facing_up: :chart_with_upwards_trend: :zap: [`ESDoc`][esdoc-url] - Automated API documentation tool with available hosting services, linting, and coverage reports.
 
 ## 5. Licenses
 
@@ -105,7 +106,7 @@ The following emojis represent resource categories. Hopefully they're helpful fo
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-2017, [Greg Swindle][author-url].
+© 2017, [Greg Swindle][author-url].
 
 [angularjs-commit-guidelines-url]: https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit
 [author-url]: https://github.com/gregswindle
