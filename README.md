@@ -35,13 +35,16 @@ Software configuration management aids.
 ### 2.4. Commit messages and CHANGELOGs
 
 * [`commitplease`][commitplease-url] - Pre-commit hook that enforces the [AngularJS commit guidelines][angularjs-commit-guidelines-url].
-* [`standard-version`][standard-version-url] - Automatic versioning and CHANGELOG generation, using GitHub's squash button and [conventional commit messages][conventional-commits-url].
+* [`emoji cheat sheet`][emoji-cheat-sheet-url] - When used judiciously, emoji's add meaning and flavor to your communications.
 * [`semantic-release`][semantic-release-url] - Fully automated package publishing.
+* [`standard-version`][standard-version-url] - Automatic versioning and CHANGELOG generation, using GitHub's squash button and [conventional commit messages][conventional-commits-url].
 
 ## 3. License
 
 [![License][license-badge]][license-url]  © 2017 Greg Swindle
 
+
+[emoji-cheat-sheet-url]: https://www.webpagefx.com/tools/emoji-cheat-sheet/
 [angularjs-commit-guidelines-url]: https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit
 [coc-url]: .github/CODE_OF_CONDUCT.md
 [commitplease-url]: https://github.com/jzaefferer/commitplease
